@@ -5,6 +5,7 @@ module.exports = {
     transform: {
       '^.+\\.(t|j)s$': 'ts-jest',
     },
+    // Especifica qué archivos incluir en la recopilación de cobertura
     collectCoverageFrom: [
       '**/*.(t|j)s',
       '!**/node_modules/**',
